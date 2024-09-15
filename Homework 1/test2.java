@@ -1,20 +1,14 @@
-public class test2 {
-    
-    public static void main(String[] args) {
-        
-        System.out.println("hello world");
-        System.out.println(12);
+import java.util.Scanner;
+Class HelloWorld { 
+    public static void main(String[]args){
+        Scanner input = new Scanner(System.in);
 
+            System.out.println("What is your name? ");
 
-        String Myname = "Taj";
-        System.out.println(Myname);
-        Integer Myage  = 18;
-
-        System.out.println("My name is " + Myname + " and I am "+ Myage + " years old ");
-
-
-
-
+                String name = input.nextline();
+                System.out.println("Hi, " + name);
 }
+
+
 
 }

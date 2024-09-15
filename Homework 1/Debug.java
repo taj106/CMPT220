@@ -26,6 +26,7 @@ public class Debug {
         int num1 = 10;
         int num2 = 37;
         //?
+        // I am going to set the sum equal to num1 plus num2
         Integer sum = num1 + num2;
 
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum );
