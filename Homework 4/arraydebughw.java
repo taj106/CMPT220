@@ -29,7 +29,7 @@ public class Main {
         //How would we add every index together and print out the sum??
         //A small hint:
         int sum = 0;
-        for(int i = 0; 1 < addMe.length; i ++){
+        for(int i = 0; i < addMe.length; i ++){
             sum += addMe[i];
             System.out.println(sum);
 
