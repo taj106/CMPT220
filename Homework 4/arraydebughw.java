@@ -31,9 +31,11 @@ public class Main {
         int sum = 0;
         for(int i = 0; i < addMe.length; i ++){
             sum += addMe[i];
-            System.out.println(sum);
-
         }
+            
+        System.out.println(sum);
+
+        
         
         //thinking one! here's an array
         int maxMe[] = {280, 4892, 134, 23, 1937, 5329, 932, 89};
