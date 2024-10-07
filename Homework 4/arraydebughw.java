@@ -39,7 +39,7 @@ public class Main {
         int maxMe[] = {280, 4892, 134, 23, 1937, 5329, 932, 89};
         //What would you have to do to find the largest number and then print that value?
         int max = maxMe[0];
-        for (int i = 1; i < maxMe.lenght; i ++) {
+        for (int i = 1; i < maxMe.length; i ++) {
             if (maxMe[i] > max) {
                 max = maxMe[i];
 
