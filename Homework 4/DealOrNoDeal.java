@@ -32,7 +32,7 @@ public class DealOrNoDeal {
 
         // the rounds and a loop for it
         for (int round = 1; round <= 6; round++) {
-            System.out.println("\n--- Round " + round + " ---");
+            System.out.println(" Round " + round);
 
             // number of cases to remove in this round
             int casesToRemove = 7 - round; // first round removes 6, second removes 5 etc..
@@ -89,7 +89,7 @@ public class DealOrNoDeal {
 
         
         while (true) {
-            System.out.println("\n--- Next Round ---");
+            System.out.println("Next Round");
             // show remaining cases
             System.out.print("Remaining cases: ");
             for (int j = 0; j < cases.length; j++) {
